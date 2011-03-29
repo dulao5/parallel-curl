@@ -1,28 +1,3 @@
-Parallel Curl
-=============
-
-A high performance parallel http client . The PHP library using multi curl .
-
-The Features:
- * parcall http call 
- * has a easly task iterator 
- * live connection
- * other curl features
-
-Classes
-=======
-
- * CurlMFetcher : curl multiple fetcher
- * CurlPool : a curl cache pool
- * CurlTaskList : a curl task iterator 
- * CurlTaskAbstract : a abstract class , your task class should extends it
-
-Usage
-=====
-
-> php test/test.php test/urls.txt
-> cat test/test.php
-
 <?php
 //autoload
 function __autoload($classname) {
