@@ -23,7 +23,7 @@ Usage
 > php test/test.php test/urls.txt
 > cat test/test.php
 
-<?php
+```php
 //autoload
 function __autoload($classname) {
 	static $lib_path ;
@@ -66,4 +66,4 @@ $curlm->setDebug(true);
 
 //run
 $curlm->run();
-
+```
